@@ -656,3 +656,12 @@
         `;
       }
     }
+
+    // Initialize application on load
+    window.onload = () => {
+      switchStep(0);
+      updateMetrics();
+    };
+  </script>
+</body>
+</html>
